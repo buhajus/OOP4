@@ -29,7 +29,6 @@ public class Mokiniai {
                 ", pazymiai=" + Arrays.toString(pazymiai) +
                 ", vidurkis= " +numberFormat.format(mokinioVidurkis())+
                 ", ar skolinknas = " + (arSkolinkas(mokinioVidurkis()) ? "Taip" : "Ne") +
-
                 '}';
     }
 
@@ -64,7 +63,7 @@ public class Mokiniai {
         if (vidurkis < 5.5) {
             return true;
         }
+
         return false;
     }
-
 }
